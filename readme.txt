@@ -1,1 +1,1 @@
-git is a free file control system
+git is a free distributed version control system
