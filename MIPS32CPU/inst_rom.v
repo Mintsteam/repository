@@ -19,7 +19,7 @@ module inst_rom(
         begin
             inst <= `ZeroWord;
         end else begin
-            inst <= inst_mem[addr[`InstMemNumLog2+1:2]];
+            inst <= inst_mem[addr[`InstMemNumLog2+1:2]];//openmips按照字节寻址，故需除4
         end
     end
 endmodule
