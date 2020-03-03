@@ -1,4 +1,4 @@
-`include "define.v"
+`include "defines.v"
 
 
 module openmips_min_sopc(
