@@ -10,7 +10,7 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
-int Euclid(int m, int n)
+int Euclid(int m, int n) //虽然条件要求m>n但是算法里没有比较大小的步骤，是因为已经隐含在了算法里，算法会自动将不正确的大小顺序调换过来
 {
     int x;
     while (n != 0)
